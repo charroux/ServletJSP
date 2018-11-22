@@ -5,6 +5,17 @@
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
+	
+	<servlet>
+		<servlet-name>PremiereServlet</servlet-name>
+		<servlet-class>tp1.PremiereServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PremiereServlet</servlet-name>
+		<url-pattern>/servlet</url-pattern>
+	</servlet-mapping>
+	
 
 	
 </web-app>
