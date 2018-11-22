@@ -16,6 +16,14 @@
 		<url-pattern>/servlet</url-pattern>
 	</servlet-mapping>
 	
-
+	<servlet>
+		<servlet-name>ServletFormulaire</servlet-name>
+		<servlet-class>tp2.FormulaireServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ServletFormulaire</servlet-name>
+		<url-pattern>/javaForm</url-pattern>
+	</servlet-mapping>
 	
 </web-app>
