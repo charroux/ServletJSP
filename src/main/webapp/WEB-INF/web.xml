@@ -26,4 +26,13 @@
 		<url-pattern>/javaForm</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>FirstJSP</servlet-name>
+		<servlet-class>tp3.PremiereJSP</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>FirstJSP</servlet-name>
+		<url-pattern>/premiereJSP_URL</url-pattern>
+	</servlet-mapping>
 </web-app>
