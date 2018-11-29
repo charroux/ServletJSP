@@ -9,10 +9,5 @@
 </head>
 <body>
 
-	<jsp:useBean id="personne" class="tp3.Personne" scope="request" />
-	
-	nom : <c:out value="${personne.nom}" /><br>
-	prenom : <c:out value="${personne.prenom}" />
-
 </body>
 </html>
