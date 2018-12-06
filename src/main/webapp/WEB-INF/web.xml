@@ -35,4 +35,15 @@
 		<servlet-name>FirstJSP</servlet-name>
 		<url-pattern>/premiereJSP_URL</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ServletBean</servlet-name>
+		<servlet-class>tp4.ServletJSPBean</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ServletBean</servlet-name>
+		<url-pattern>/urlBean</url-pattern>
+	</servlet-mapping>
+
 </web-app>

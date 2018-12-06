@@ -8,6 +8,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<jsp:useBean id="personne" class="tp4.Personne" scope="request"/>
+
+	Nom : <c:out value="${personne.nom}" /><br>
+	Prenom : <c:out value="${personne.prenom}" /><br>
 
 </body>
 </html>
