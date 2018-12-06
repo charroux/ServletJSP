@@ -46,4 +46,14 @@
 		<url-pattern>/urlBean</url-pattern>
 	</servlet-mapping>
 
+    <servlet>
+		<servlet-name>ServletListeBean</servlet-name>
+		<servlet-class>tp5.ServletJSPListeBean</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ServletListeBean</servlet-name>
+		<url-pattern>/urlListeBean</url-pattern>
+	</servlet-mapping>
+
 </web-app>

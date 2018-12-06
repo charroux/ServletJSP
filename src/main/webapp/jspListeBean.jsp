@@ -8,10 +8,11 @@ urlListeBean<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:useBean id="personne" class="tp4.Personne" scope="request"/>
+	<jsp:useBean id="liste" class="java.util.ArrayList" scope="request"/>
 
-	Nom : <c:out value="${personne.nom}" /><br>
-	Prenom : <c:out value="${personne.prenom}" /><br>
-
+	<c:forEach items="${liste}" var="personne">
+		Nom : <c:out value="${personne.nom}" /><br>
+	</c:forEach>
+	
 </body>
 </html>
