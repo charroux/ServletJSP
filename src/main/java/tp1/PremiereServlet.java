@@ -9,7 +9,9 @@ import javax.servlet.http.HttpServletResponse;
 
 public class PremiereServlet extends HttpServlet{
 
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("Bonjour");
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String name = req.getParameter("nom");
+		String prenom = req.getParameter("prenom");
+		System.out.println("name = " + name + ", prenom = " + prenom);
 	}
 }

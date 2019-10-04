@@ -16,44 +16,5 @@
 		<url-pattern>/servlet</url-pattern>
 	</servlet-mapping>
 	
-	<servlet>
-		<servlet-name>ServletFormulaire</servlet-name>
-		<servlet-class>tp2.FormulaireServlet</servlet-class>
-	</servlet>
-	
-	<servlet-mapping>
-		<servlet-name>ServletFormulaire</servlet-name>
-		<url-pattern>/javaForm</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>FirstJSP</servlet-name>
-		<servlet-class>tp3.PremiereJSP</servlet-class>
-	</servlet>
-	
-	<servlet-mapping>
-		<servlet-name>FirstJSP</servlet-name>
-		<url-pattern>/premiereJSP_URL</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
-		<servlet-name>ServletBean</servlet-name>
-		<servlet-class>tp4.ServletJSPBean</servlet-class>
-	</servlet>
-	
-	<servlet-mapping>
-		<servlet-name>ServletBean</servlet-name>
-		<url-pattern>/urlBean</url-pattern>
-	</servlet-mapping>
-
-    <servlet>
-		<servlet-name>ServletListeBean</servlet-name>
-		<servlet-class>tp5.ServletJSPListeBean</servlet-class>
-	</servlet>
-	
-	<servlet-mapping>
-		<servlet-name>ServletListeBean</servlet-name>
-		<url-pattern>/urlListeBean</url-pattern>
-	</servlet-mapping>
 
 </web-app>
