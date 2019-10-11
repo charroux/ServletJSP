@@ -38,4 +38,26 @@
 		<servlet-name>ServletBean</servlet-name>
 		<url-pattern>/urlServletBean</url-pattern>
 	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ServletPersonne</servlet-name>
+		<servlet-class>tp1.ServletNbPersonne</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ServletPersonne</servlet-name>
+		<url-pattern>/urlNbPersonnes</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>ServletCreerForm</servlet-name>
+		<servlet-class>tp1.ServletCreerForm</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ServletCreerForm</servlet-name>
+		<url-pattern>/urlCreerForm</url-pattern>
+	</servlet-mapping>
 </web-app>
