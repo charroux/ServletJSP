@@ -26,4 +26,16 @@
 		<servlet-name>PremiereJSP</servlet-name>
 		<url-pattern>/premiereJSP</url-pattern>
 	</servlet-mapping>
+	
+	
+		
+	<servlet>
+		<servlet-name>ServletBean</servlet-name>
+		<servlet-class>tp1.BeanServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ServletBean</servlet-name>
+		<url-pattern>/urlServletBean</url-pattern>
+	</servlet-mapping>
 </web-app>
