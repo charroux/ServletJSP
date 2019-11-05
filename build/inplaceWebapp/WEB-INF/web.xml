@@ -16,5 +16,4 @@
 		<url-pattern>/urlPremiereServlet</url-pattern>
 	</servlet-mapping>
 	
-	
 </web-app>
