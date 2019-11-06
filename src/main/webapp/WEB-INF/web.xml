@@ -28,5 +28,16 @@
 	</servlet-mapping>
 	
 	
+
+	<servlet>
+		<servlet-name>JSPBean</servlet-name>
+		<servlet-class>tp1.ServletJSPBean</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>JSPBean</servlet-name>
+		<url-pattern>/urlServletBean</url-pattern>
+	</servlet-mapping>
+
 		
 </web-app>
