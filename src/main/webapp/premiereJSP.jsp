@@ -8,5 +8,8 @@
 </head>
 <body>
 
+nom: <%=request.getAttribute("name") %><br>
+age: <%=request.getAttribute("birthday") %>
+
 </body>
 </html>

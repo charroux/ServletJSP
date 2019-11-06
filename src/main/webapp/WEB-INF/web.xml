@@ -15,5 +15,18 @@
 		<servlet-name>firstServlet</servlet-name>
 		<url-pattern>/urlPremiereServlet</url-pattern>
 	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>firstJSP</servlet-name>
+		<servlet-class>tp1.PremiereServletJSP</servlet-class>
+	</servlet>
 	
+	<servlet-mapping>
+		<servlet-name>firstJSP</servlet-name>
+		<url-pattern>/urlServletForm</url-pattern>
+	</servlet-mapping>
+	
+	
+		
 </web-app>
