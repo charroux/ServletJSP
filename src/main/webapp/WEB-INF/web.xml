@@ -39,5 +39,27 @@
 		<url-pattern>/urlServletBean</url-pattern>
 	</servlet-mapping>
 
-		
+
+
+	<servlet>
+		<servlet-name>NbPersonnes</servlet-name>
+		<servlet-class>tp1.ServletNbPersonnes</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>NbPersonnes</servlet-name>
+		<url-pattern>/urlNbPersonnes</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Personnes</servlet-name>
+		<servlet-class>tp1.ServletPersonnes</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Personnes</servlet-name>
+		<url-pattern>/urlPersonnes</url-pattern>
+	</servlet-mapping>
+			
 </web-app>
